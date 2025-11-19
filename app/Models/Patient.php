@@ -1,0 +1,20 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+
+class Patient extends Model
+{
+    use HasFactory;
+
+    protected $fillable = [
+        'name','nik','gender','birth_date','phone','address'
+    ];
+
+    public function visits()
+    {
+        return $this->hasMany(Visit::class);
+    }
+}
