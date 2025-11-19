@@ -37,10 +37,10 @@ Prasyarat
     php artisan migrate --seed
     ```
    #### 1.6 Menjalankan Server Lokal
-      Jalankan aplikasi menggunakan server development bawaan Laravel:
-      ```bash
+  
+   ```bash
       php artisan serve
-      ```
+   ```
 
 ### 2. Struktur Folder Kustom (Tidak Ada)
 Proyek ini mengikuti struktur folder standar Laravel (app, config, database, public, resources, routes). Tidak ada penyesuaian besar pada struktur folder inti.
